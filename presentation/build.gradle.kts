@@ -4,7 +4,6 @@ plugins {
     kotlin("kapt")
     kotlin("plugin.parcelize")
     id("dagger.hilt.android.plugin")
-    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 val composeVersion = "1.2.0-rc01"
@@ -97,9 +96,6 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.4.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1")
 
-    // data store
-    implementation("androidx.datastore:datastore:1.0.0")
-
     // navigation component
     val navigationVersion = "2.5.0-rc02"
     implementation("androidx.navigation:navigation-fragment-ktx:$navigationVersion")
@@ -126,15 +122,6 @@ dependencies {
     implementation("com.google.accompanist:accompanist-navigation-animation:$accompanistVersion")
     implementation("com.google.accompanist:accompanist-permissions:$accompanistVersion")
     implementation("com.google.accompanist:accompanist-systemuicontroller:$accompanistVersion")
-    implementation("com.google.accompanist:accompanist-placeholder-material:$accompanistVersion")
-
-    // glide
-    implementation("com.github.bumptech.glide:glide:4.13.2")
-    kapt("com.github.bumptech.glide:compiler:4.13.2")
-    implementation("com.github.skydoves:landscapist-glide:1.5.2")
-
-    // MP Android Chart
-//    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
     // junit
     testImplementation("junit:junit:4.13.2")
