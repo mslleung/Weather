@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="search_title">Find weather information by city</string>
+    <string name="search_history_icon_content_desc">Search History</string>
+    <string name="search_bar_icon_content_desc">Search by entering city name</string>
+    <string name="search_bar_hint_text">Enter city name</string>
+    <string name="search_button_text">Search</string>
+    <string name="search_query_empty">Search is empty</string>
+    <string name="search_failed_snackbar_message">Search failed.</string>
+    <string name="search_result_location_icon_content_desc">Location</string>
+    <string name="search_result_clear_search_button_text">Clear Search</string>
+    <string name="search_result_humidity_label">Humidity</string>
+    <string name="search_result_temperature_label">Temperature</string>
+    <string name="search_result_pressure_label">Pressure</string>
+
+    <string name="search_history_title">Search History</string>
+    <string name="search_history_back_button_content_desc">Back</string>
+    <string name="search_history_delete_button_content_desc">Delete</string>
+    <string name="search_history_last_search">Last search:</string>
+
+</resources>

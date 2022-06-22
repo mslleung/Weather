@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "com.stockviva.weather.infrastructure.preference.datasources.datastore";
+option java_multiple_files = true;
+
+message AppPreferenceProto {
+  string last_search = 1;
+}
